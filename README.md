@@ -4,7 +4,7 @@ Our proposed approach leverage video analysis and computer vision to assist coac
 
 ---
 
-## 📌 Table of Contents
+## Table of Contents
 - [Introduction](#introduction)
 - [Objectives](#objectives)
 - [Dataset Description](#dataset-description)
@@ -18,7 +18,7 @@ Our proposed approach leverage video analysis and computer vision to assist coac
 
 ---
 
-## 📖 Introduction
+## Introduction
 
 Basketball involves high-impact movements such as jump landings, which pose significant injury risks. Traditional biomechanical assessments are expensive and time-consuming.  
 We introduce an automated, affordable, and real-time solution using computer vision.
@@ -32,7 +32,7 @@ We introduce an automated, affordable, and real-time solution using computer vis
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 - Develop a high-quality annotated dataset for biomechanical risk assessment
 - Automate feature extraction of risk-related metrics from video data
@@ -41,7 +41,7 @@ We introduce an automated, affordable, and real-time solution using computer vis
 
 ---
 
-## 📂 Dataset Description
+## Dataset Description
 
 - **Participants:** 17 NCAA Division I female basketball athletes  
 - **Frames:** 86,000+ frames (frontal + lateral views) during CMJs  
@@ -56,7 +56,7 @@ We introduce an automated, affordable, and real-time solution using computer vis
 
 ---
 
-## ⚙️ Methodology
+## Methodology
 
 ### 📽 Video & Image Processing
 - Frame extraction from high-resolution videos
@@ -78,7 +78,7 @@ We introduce an automated, affordable, and real-time solution using computer vis
 
 ---
 
-## 📊 Results
+## Results
 
 | Metric | Performance |
 |---------|-------------|
@@ -89,7 +89,7 @@ We introduce an automated, affordable, and real-time solution using computer vis
 
 ---
 
-## 🔮 Future Work
+## Future Work
 
 - Address data imbalance and occlusion issues
 - Expand dataset with multi-view camera setups
@@ -98,7 +98,7 @@ We introduce an automated, affordable, and real-time solution using computer vis
 
 ---
 
-## 🏟 Practical Application
+## Practical Application
 
 The proposed approach enables:
 - Real-time biomechanical assessment during training
@@ -108,7 +108,7 @@ The proposed approach enables:
 
 ---
 
-## 🛠 Dependencies & Tools
+## Dependencies & Tools
 
 - Python 3.x  
 - PyTorch  
@@ -121,7 +121,7 @@ The proposed approach enables:
 
 ---
 
-## ⚖️ License and Acknowledgments
+## License and Acknowledgments
 
 - **Dataset:** The dataset used in this project involves proprietary data collected from *Sacred Heart University* athletes. Please consider using publicly available datasets for external research or open-source adaptations.
 - **Acknowledgments:**  Special thanks to the participating athletes and coaching staff for their invaluable contributions to this project.
