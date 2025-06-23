@@ -26,10 +26,9 @@ We introduce an automated, affordable, and real-time solution using computer vis
 ### Core Contributions
 
 - 📊 Labeled dataset of NCAA Division I female basketball athletes performing countermovement jumps (CMJs)
+- 🏃‍♀️ Developing a customized error annotation algorithm
 - 🎯 YOLO-based object detection and semantic segmentation for biomechanical risk factor identification
 - 📈 Performance analysis across YOLO variants and related models
-- 🏃‍♀️ Deployment framework for real-time injury prevention applications
-
 ---
 
 ## Objectives
@@ -85,7 +84,18 @@ We introduce an automated, affordable, and real-time solution using computer vis
 | Stance Width, Trunk Flexion, Knee Flexion | High accuracy |
 | Foot Landing Symmetry | Moderate accuracy |
 | Ankle Plantar Flexion | Lower accuracy (occlusion challenges) |
-| **mAP@0.5** | ~87.9% average |
+
+### YOLOv5nu Weighted Average Performance
+
+| Error Type               | Box Precision | Recall | mAP@0.5 |
+|--------------------------|---------------|--------|---------|
+| Stance Width              | 0.896         | 0.976  | 0.973   |
+| Lateral Trunk Flexion     | 0.792         | 0.930  | 0.924   |
+| Foot Landing Symmetry     | 0.677         | 0.839  | 0.815   |
+| Knee Flexion              | 0.961         | 0.979  | 0.983   |
+| Trunk Flexion             | 0.831         | 0.939  | 0.941   |
+| Ankle Plantar Flexion     | 0.648         | 0.603  | 0.641   |
+| **Average**               | **0.800**     | **0.877** | **0.879** |
 
 ---
 
