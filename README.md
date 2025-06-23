@@ -13,7 +13,6 @@ Our proposed approach leverage video analysis and computer vision to assist coac
 - [Future Work](#future-work)
 - [Practical Application](#practical-application)
 - [Dependencies & Tools](#dependencies--tools)
-- [Getting Started](#getting-started)
 - [License and Acknowledgments](#️-license-and-acknowledgments)
 
 ---
