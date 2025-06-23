@@ -14,7 +14,7 @@ Our proposed approach leverage video analysis and computer vision to assist coac
 - [Practical Application](#practical-application)
 - [Dependencies & Tools](#dependencies--tools)
 - [Getting Started](#getting-started)
-- [License and Acknowledgments](#license-and-acknowledgments)
+- [License and Acknowledgments](#️-license-and-acknowledgments)
 
 ---
 
@@ -121,9 +121,8 @@ The proposed approach enables:
 
 ---
 
-## 🚀 Getting Started
+## ⚖️ License and Acknowledgments
 
-### 1️⃣ Clone the repository
-```bash
-git clone https://github.com/yourusername/BioJump.git
-cd BioJump
+- **Dataset:** The dataset used in this project involves proprietary data collected from *Sacred Heart University* athletes. Please consider using publicly available datasets for external research or open-source adaptations.
+- **Acknowledgments:**  Special thanks to the participating athletes and coaching staff for their invaluable contributions to this project.
+
